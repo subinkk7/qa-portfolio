@@ -3,7 +3,7 @@ function Hero() {
     <section className="hero" id="home">
 
       <img
-        src="/images/profile.jpg"
+        src={`${import.meta.env.BASE_URL}images/profile.jpg`}
         alt="Subin K K"
         className="profile"
       />

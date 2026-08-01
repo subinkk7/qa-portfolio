@@ -11,7 +11,7 @@ function Resume() {
       <div className="resume-container">
 
         <iframe
-          src="/resume/Subin_KK_Resume.pdf"
+          src={`${import.meta.env.BASE_URL}resume/Subin_KK_Resume.pdf`}
           title="Resume"
           width="100%"
           height="700"
